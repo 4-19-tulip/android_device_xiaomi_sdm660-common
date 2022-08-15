@@ -10,6 +10,7 @@ PRODUCT_BOARD_PLATFORM := sdm660
 TARGET_BOARD_PLATFORM := sdm660
 TARGET_USES_UM_4_19 := true
 OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
+TARGET_ENFORCES_QSSI := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
